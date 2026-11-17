@@ -1,0 +1,3 @@
+# Exported shelves contain personal data
+*.csv
+.DS_Store

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Skoob Exporter",
+  "version": "1.0.0",
+  "description": "Exporta sua estante do Skoob (livros, avaliações e resenhas) para um CSV no formato do Goodreads.",
+  "permissions": ["cookies", "scripting", "activeTab"],
+  "host_permissions": [
+    "https://*.skoob.com.br/*",
+    "https://openlibrary.org/*",
+    "https://www.googleapis.com/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Exportar estante do Skoob" },
+  "icons": { "128": "icon.png" }
+}
